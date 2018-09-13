@@ -1,0 +1,66 @@
+body {
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    /*font-family: Verdana, Arial, Helvetica, sans-serif; */
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #4d4d4d;
+}
+
+/*Main content*/ 
+.jumbotron {
+    background: #e5e5e5;
+    border: 3px groove #e5e5e5;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 19px 29px;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.nav-align-center {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+}
+
+h2, .h2 {
+    color: #80ba27;
+    font-size: 26px;
+    letter-spacing: -1px;
+    line-height: 1.25;
+    margin: 20px 0;
+}
+
+h3, .h3 {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: tomato;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
