@@ -11,6 +11,9 @@
 |
 */
 use App\Item;
+use App\Manufacturer;
+
+Route::resource('item', 'ItemController');
 
 Route::get('/', function () {
     return view('homePage');
@@ -48,7 +51,11 @@ Route::get('/test', function () {
     
     /*$itmes = Item::orderBy('price', 'asc')->get();*/
     
-    $itme = Item::find(10); $itme->price = 300; $itme->save();
-    dd($itme);
+    /*$itme = Item::find(10); $itme->price = 300; $itme->save();
+    dd($itme);*/
+    
+    /*$manufacturers = App\Manufacturer::find(1)->items;
+    dd($manufacturers);*/
+    dd(Item::find(1)->manufacturer);
 });
 

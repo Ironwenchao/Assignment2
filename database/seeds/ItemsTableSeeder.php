@@ -12,6 +12,7 @@ class ItemsTableSeeder extends Seeder
     public function run()
     {
         DB::table('items')->insert([
+            'manufacturer_id' => 1,
             'name' => 'Apple iPhone X',
             'price' => '1593',
             'type' => 'mobile phone',
@@ -21,6 +22,7 @@ class ItemsTableSeeder extends Seeder
         
         
         DB::table('items')->insert([
+            'manufacturer_id' => 2,
             'name' => 'Samsung Galacy 9',
             'price' => '1200',
             'type' => 'mobile phone',
@@ -30,6 +32,7 @@ class ItemsTableSeeder extends Seeder
         
         
         DB::table('items')->insert([
+            'manufacturer_id' => 4,
             'name' => 'Oppo X21',
             'price' => '900',
             'type' => 'mobile phone',
@@ -39,6 +42,7 @@ class ItemsTableSeeder extends Seeder
         
         
         DB::table('items')->insert([
+            'manufacturer_id' => 1,
             'name' => 'Apple iPhone 8',
             'price' => '1250',
             'type' => 'mobile phone',
@@ -47,6 +51,7 @@ class ItemsTableSeeder extends Seeder
         ]);
         
         DB::table('items')->insert([
+            'manufacturer_id' => 3,
             'name' => 'Huawei mate 10',
             'price' => '1199',
             'type' => 'mobile phone',
@@ -56,6 +61,7 @@ class ItemsTableSeeder extends Seeder
         
         
         DB::table('items')->insert([
+            'manufacturer_id' => 1,
             'name' => 'Apple  Macbook',
             'price' => '2399',
             'type' => 'labtop',
@@ -65,6 +71,7 @@ class ItemsTableSeeder extends Seeder
         
         
         DB::table('items')->insert([
+            'manufacturer_id' => 5,
             'name' => 'Canon EOS 750D',
             'price' => '769',
             'type' => 'camera',
@@ -73,6 +80,7 @@ class ItemsTableSeeder extends Seeder
         ]);
         
         DB::table('items')->insert([
+            'manufacturer_id' => 6,
             'name' => 'Sony ILCE-7M3',
             'price' => '3099',
             'type' => 'camera',
